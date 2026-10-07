@@ -38,17 +38,21 @@ Scan ID: 42
 
 ## Installation on Kali Linux
 
+> GitHub login is not required when the repository is public. Use the public HTTPS URL below and make sure the GitHub repository visibility is set to Public in the repo settings.
+
 ```bash
 sudo apt update
 sudo apt install python3 python3-pip python3-venv nmap
 
-git clone https://github.com/your-user/reconforge.git
-cd reconforge
+git clone https://github.com/Kingxavi69/RECONFORGE.git
+cd RECONFORGE
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 pip install -e .
 ```
+
+If GitHub still prompts for login, the repository is likely private or restricted. Set the repository to Public in GitHub → Settings → General → Visibility, then retry the clone command above.
 
 ## Usage
 
